@@ -16,9 +16,9 @@ class TopAnimes extends Component {
 
   render() {
     return (
-      <div className="TopAnimes">
+      <section className="top-animes">
         { <AnimesList {...this.props} /> }
-      </div>
+      </section>
     )
   }
 }
